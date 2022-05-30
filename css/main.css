@@ -118,13 +118,22 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background: #00ffff;
+  background:rgba(0,77,77,0.8);
   height: 300px;
   width: 30%;
+  padding: 0px 30px;
+  border-radius: 5px;
+  border-style: double;
+  border-color: #222;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+span {
+    font-size: 1.1em;
 }
 
 
